@@ -1,3 +1,6 @@
+# Archivos de salida, compilación, temporarios, etc.
+**/out/
+
 # Prerequisites
 *.d
 
