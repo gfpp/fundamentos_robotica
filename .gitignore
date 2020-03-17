@@ -1,5 +1,6 @@
 # Archivos de salida, compilación, temporarios, etc.
 **/out/
+educiaa/ejercicio*
 
 # Archivos del MCUXpresso IDE
 .cproject
