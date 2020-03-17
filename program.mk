@@ -1,40 +1,43 @@
 # Instrucciones para compilar distintos programas:
 # -----------------------------------------------------------------------------
 #
-# Cada programa requiere que dos símbolos estén definidos:
+# Cada programa requiere definir dos variables:
 # 1- La ruta a la carpeta de trabajo: PROGRAM_PATH
 # 2- El nombre del programa: PROGRAM_NAME
 #
-# Cada símbolo puede ser definido SOLO UNA VEZ, por lo que hay que
-# COMENTAR TODOS los programas, EXCEPTO el que queremos compilar
+# Cada variable puede ser definida SOLO UNA VEZ, por lo que hay que
+# COMENTAR TODAS las demás asignaciones, EXCEPTO el que queremos compilar
 
 # -----------------------------------------------------------------------------
 # Rutas Posibles
 # ----------------------------------------------------------------------------- 
 
-# Ejercicios de la EduCIAA
+# Ejemplos y ejercicios de la EduCIAA
 PROGRAM_PATH = educiaa
+#PROGRAM_PATH = eduromaa
 
-# Pruebas de Partes del Robot EduRoMAA
+# Pruebas de partes del robot EduRoMAA
 #PROGRAM_PATH = eduromaa/prueba
 
-# Aplicaciones completas del Robot EduRoMAA
+# Aplicaciones completas del robot EduRoMAA
 #PROGRAM_PATH = eduromaa/app
 
 # -----------------------------------------------------------------------------
-# EJERCICIOS DE EDUCIAA
+# EJEMPLOS Y EJERCICIOS DE LA EDUCIAA
 # -----------------------------------------------------------------------------
+
 PROGRAM_NAME = blinky
+#PROGRAM_NAME = ejercicio1
 
 # -----------------------------------------------------------------------------
-# PROYECTOS DE PRUEBA
+# PROYECTOS DE PRUEBA DEL EDUROMAA
 # -----------------------------------------------------------------------------
 
-# Prueba 01 - GPIO como entradas: Paragolpes
-#PROGRAM_NAME = paragolpes
-
-# Prueba 02 - GPIO como salidas: Bocina
+# Prueba 01 - GPIO como salidas: Bocina
 #PROGRAM_NAME = bocina
+
+# Prueba 02 - GPIO como entradas: Paragolpes
+#PROGRAM_NAME = paragolpes
 
 # Prueba 03 - PWM: Motores
 #PROGRAM_NAME = motores
@@ -64,7 +67,7 @@ PROGRAM_NAME = blinky
 #DEFINES+=SAPI_USE_INTERRUPTS
 
 # -----------------------------------------------------------------------------
-# PROYECTOS DE APLICACIONES
+# PROYECTOS DE APLICACIONES DEL EDUROMAA
 # -----------------------------------------------------------------------------
 
 # Aplicación 00: Paragolpes con retardo bloqueante
