@@ -1,16 +1,10 @@
 # Fundamentos de Robótica Móvil
-Material para la electiva "Fundamentos de Robótica Móvil" de la UTN-FRC
 
-## Tutorial flash :zap: para Debian/Ubuntu. 
-Tutorial para correr el ejemplo "**blinky**" en la eduCIAA en una PC con debian o ubuntu.
-### Instalar:
-    sudo apt install gcc-arm-none-eabi
-    sudo apt install openocd
-### Clonar este repo:
-    git clone https://github.com/gfpp/fundamentos_robotica
-### Compilar y grabar:
-    cd fundamentos_robotica
-    make 
-    make download
+ * [Instalación del toolchain y puesta en marcha del ejemplo](docs/Arrancando.md)
 
- 
+## Links útiles
+
+ * [Repositorio del robot EduRoMAA](https://github.com/ciiiutnfrc/eduromaa)
+ * [Página de la EduCIAA-NXP](http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:edu-ciaa:edu-ciaa-nxp)
+ * [Repositorio principal del proyecto CIAA](https://github.com/ciaa)
+ * [Repositorio del firmware de la EduCIAA](https://github.com/ciaa/firmware_v3)
