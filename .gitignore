@@ -1,6 +1,10 @@
 # Archivos de salida, compilación, temporarios, etc.
 **/out/
 
+# Archivos del MCUXpresso IDE
+.cproject
+.project
+
 # Prerequisites
 *.d
 
