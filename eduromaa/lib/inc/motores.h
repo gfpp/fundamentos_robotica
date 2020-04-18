@@ -1,5 +1,5 @@
-#ifndef _MOTORES_H
-#define _MOTORES_H
+#ifndef MOTORES_H
+#define MOTORES_H
 
 /*==================[inclusiones]============================================*/
 #include "sapi.h"
@@ -19,7 +19,7 @@ void apagarMotores(void);
 
 void escribirPWMMotorIzq(int8_t pwmIzq);
 void escribirPWMMotorDer(int8_t pwmDer);
-void escribirPWMMotores(uint8_t pwmDer, uint8_t pwmIzq);
+void escribirPWMMotores(uint8_t pwmIzq, uint8_t pwmDer);
 
 /*
  * Velocidad de Motores en porcentaje -100 a 100
@@ -37,7 +37,5 @@ void escribirVelMotorIzq(int8_t velMotIzq);
 void escribirVelMotorDer(int8_t velMotDer);
 void escribirVelMotores(int8_t velMotIzq, int8_t velMotDer);
 
-
-
-#endif
+#endif /* MOTORES_H */
 
