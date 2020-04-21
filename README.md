@@ -1,7 +1,7 @@
 # Fundamentos de Robótica Móvil
 
  * [Instalación del toolchain y puesta en marcha del ejemplo](docs/Arrancando.md)
- * [Documentación de las distintas capas de programación](doc/Documentacion.md)
+ * [Documentación de las distintas capas de programación](docs/Documentacion.md)
 
 ## Programación del robot EduRoMAA
 
