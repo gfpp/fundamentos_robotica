@@ -61,7 +61,7 @@ bool_t iniParagolpes(void)
  */
 
 bool_t leerParagolpesIzq(void)
-
+{
   return gpioRead(PARAGOLPES_IZQ);
 }
 
