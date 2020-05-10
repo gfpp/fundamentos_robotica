@@ -19,7 +19,7 @@ static void initHardware(void)
   SystemCoreClockUpdate();
   SysTick_Config(SystemCoreClock / 1000);
 
-  /* Inicializa el módilo GPIO */
+  /* Inicializa el módulo GPIO */
   Chip_GPIO_Init(LPC_GPIO_PORT);
 
   Chip_SCU_PinMux(SCU_PORT, SCU_PIN, SCU_MODE_INACT | SCU_MODE_INBUFF_EN | SCU_MODE_ZIF_DIS, FUNC0);

@@ -27,6 +27,7 @@ USE_FPU=y
 # Libraries
 USE_LPCOPEN=y
 USE_SAPI=y
+USE_EDUROMAA=y
 # -------- Include config.mk file fom program --------------------------
 -include $(PROGRAM_PATH_AND_NAME)/config.mk
 # ----------------------------------------------------------------------
@@ -36,8 +37,10 @@ SRC=$(wildcard $(PROGRAM_PATH_AND_NAME)/src/*.c)
 SRC+=$(foreach m, $(MODULES), $(wildcard $(m)/src/*.c))
 
 # 20190709 - MSB - Agragada librería de EduRoMAA
-INCLUDES += -Ieduromaa/lib/inc
-SRC+=$(wildcard eduromaa/lib/src/*.c)
+ifeq ($(USE_EDUROMAA),y)
+  INCLUDES += -Ieduromaa/lib/inc
+  SRC+=$(wildcard eduromaa/lib/src/*.c)
+endif
 
 CXXSRC=$(wildcard $(PROGRAM_PATH_AND_NAME)/src/*.cpp)
 CXXSRC+=$(foreach m, $(MODULES), $(wildcard $(m)/src/*.cpp))
